@@ -5,32 +5,42 @@ a {
     
 }
 
+a:hover {
+    color: #e5e7eb;
+}
+
+button:hover {
+    font-style: initial;
+    background-color: #3881f6ab;
+}
+
 body {
     margin: auto;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: top;
+    justify-content: stretch;
+    align-items: center;
     background-color: #1f2937;
-    
-
+    padding-bottom: 50px;
 }
 
 .header-flex {
-    display: flex;
-    flex-direction: row;
-    margin-left: 150px;
-
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 215px;
+    
 }
 .header-links {
     flex-direction: row;
-    justify-content: space-evenly;
-    color: lightgrey;
-    
-    
+    justify-self: flex-end;
+    margin-left: auto;
+    color: #e5e7eb;
+    font-size: 18px;   
 }
 
 .header-ul {
@@ -40,17 +50,208 @@ body {
     list-style: none;
     color: lightgrey;
     gap: 20px;
-    margin-right: 150px;
+    margin-right: 220px;
+}
+
+.flex-mother {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    
+    
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    gap: 50px;
+    padding-bottom: 120px;
+    
+    
 }
 
 
+.awesome {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 10px 10px 10px;
+}
+
+.awesome-header {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+.awesome-paragraph {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.awesome-button {
+    background-color: #3882f6;
+    border-radius: 4px;
+    border-style: none;
+    padding: 5px 18px 5px 18px;
+    color: white;
+    font-weight: bolder;
+}
+
+.awesome-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #e5e7eb80;
+    margin-top: 40px;
+    padding: 1px 120px 1px 120px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: stretch;
+    padding-bottom: 120px;
+    }
 
 
+    .header-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    }
+
+    #information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+
+    }
+
+    .boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 45px;
+    }
+
+    .info-div1 {
+        width: auto;
+        
+    }
+
+    .info-div2 {
+        width: auto;
+    }
+    .info-div3 {
+        width: auto;
+    }
+    .info-div4 {
+        width: auto;
+    }
+
+    .info-box {
+    padding: 65px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    }
 
 
+    .section3 {
+        background-color: #e5e7eb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s3-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 110px;
+    }
+
+    .s3-1 {
+        display: flex;
+        align-items: flex-end;
+        font-size: 36px;
+        font-weight: 100;
+        font-style: italic;
+        color: #1f2937;
+
+    }
+
+    .p1 {
+        padding-bottom: 0px;
+    }
+    
+    .s3-2 {
+       display: flex; 
+       align-items: flex-start;
+       flex-direction: row;
+       justify-content: flex-end;
+       font-weight: bold;
+    }
+
+    .p2 {
+        font-size: 20px;
+    }
 
 
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
+.s4-d1 {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: #3882f6;
+gap: 80px;
+padding: 25px 125px 25px 125px;
+margin-top: 75px;
+margin-bottom: 75px;
+border-radius: 10px;
+}
+
+.s4-d2 {
+
+    
+}
+
+.s4-d3 {
+    display: block;
+    border-radius: 10px;
+}
+
+.s4-but {
+    background-color: #3882f6;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: white;
+    text-decoration: none;
+    padding: 5px 18px 5px 18px;
+    color: white;
+    font-weight: bolder;
+}
 
 
 
